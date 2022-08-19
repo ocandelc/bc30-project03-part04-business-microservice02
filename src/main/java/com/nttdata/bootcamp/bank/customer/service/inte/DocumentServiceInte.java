@@ -1,3 +1,15 @@
+/**
+ * Resumen.
+ * Objeto                   : DocumentServiceInte.java
+ * Descripción              : Clase de interface de servicio para utilizar los métodos de CRUD.
+ * Fecha de Creación        : 19/08/2022.
+ * Proyecto de Creación     : Bootcamp-30.
+ * Autor                    : Mario Vásquez.
+ * ---------------------------------------------------------------------------------------------------------------------------
+ * Modificaciones
+ * Motivo                   Fecha             Nombre                  Descripción
+ * ---------------------------------------------------------------------------------------------------------------------------
+ */
 package com.nttdata.bootcamp.bank.customer.service.inte;
 
 import com.nttdata.bootcamp.bank.customer.model.document.Document;
