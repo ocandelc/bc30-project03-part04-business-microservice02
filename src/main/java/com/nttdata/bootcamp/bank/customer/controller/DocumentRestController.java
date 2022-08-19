@@ -8,7 +8,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-
+/**
+ * Clase de controladora para invocar los métodos con rest api.
+ */
 @RestController
 @RequestMapping("/api/documents")
 public class DocumentRestController {

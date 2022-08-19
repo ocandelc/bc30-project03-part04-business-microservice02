@@ -8,7 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-
+/**
+ * Clase de controladora para invocar los métodos con rest api.
+ */
 @RestController
 @RequestMapping("/api/customers")
 public class CustomerRestController

@@ -8,7 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-
+/**
+ * Clase de implementación de servicio para utilizar los métodos de CRUD.
+ */
 @Service
 public class DocumentTypeServiceImpl implements DocumentTypeServiceInte {
     private static final Logger log = LoggerFactory.getLogger(DocumentTypeServiceImpl.class);

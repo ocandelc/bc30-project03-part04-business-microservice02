@@ -6,7 +6,9 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
-
+/**
+ * Clase de tipo document para obtener o establecer los datos de cada atributo.
+ */
 @Data
 @AllArgsConstructor
 @Document(collection="customer_type")
