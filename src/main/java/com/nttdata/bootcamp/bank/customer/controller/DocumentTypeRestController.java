@@ -24,7 +24,7 @@ import reactor.core.publisher.Mono;
  * Clase de controladora para invocar los métodos con rest api.
  */
 @RestController
-@RequestMapping("/api/documentTypes")
+@RequestMapping("/api/documentType")
 public class DocumentTypeRestController {
     private static final Logger log = LoggerFactory.getLogger(DocumentTypeRestController.class);
 

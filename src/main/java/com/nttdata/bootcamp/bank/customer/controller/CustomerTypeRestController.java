@@ -28,7 +28,7 @@ import reactor.core.publisher.Mono;
  * Clase de controladora para invocar los métodos con rest api.
  */
 @RestController
-@RequestMapping("/api/customertypes")
+@RequestMapping("/api/customerType")
 public class CustomerTypeRestController
 {
 
